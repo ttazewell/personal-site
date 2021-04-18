@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(196, 237, 250);
+}
+
+.header_intro{
+    margin-bottom: 30px;
+}
+
+h1{
+    font-family: Georgia, sans-serif;
+    color: rgb(7, 7, 7);
+    font-size: 50px;
+    margin-bottom: 2px;
+}
+
+.header_intro p{
+    font-family: Georgia;
+    color: grey;
+    font-size: 20px;
+}
+
+.header_photo img:first-child{
+    border-style: none;
+}
+
+.social_links{
+    display: flex;
+    justify-content: flex-start;
+}
+
+ion-icon{
+    font-size: 24px;
+    color: grey;
+}
+
+.sections{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.aboutme{
+    margin-top: 20px;
+}
+
+.aboutme h2{
+    color: black;
+    font-size: 30px;
+    font-family: Georgia;
+    margin-left: 585px;
+}
+
+.aboutme p{
+    color: grey;
+    font-family: Georgia;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.projects{
+    background-color: lightgoldenrodyellow;
+    margin-top: 30px;
+}
+
+.projects h2{
+    color: black;
+    font-size: 30px;
+    font-family: Georgia;
+    margin-left: 315px;
+
+}
+
+.project_img{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    border-style: solid;
+    border-color: grey;
+}
