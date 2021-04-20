@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(196, 237, 250);
+    flex-wrap: wrap;
 }
 
 .header_intro{
@@ -15,12 +16,14 @@ h1{
     color: rgb(7, 7, 7);
     font-size: 50px;
     margin-bottom: 2px;
+    text-align: center;
 }
 
 .header_intro p{
     font-family: Georgia;
     color: grey;
     font-size: 20px;
+    text-align: center;
 }
 
 .header_photo img:first-child{
@@ -29,7 +32,7 @@ h1{
 
 .social_links{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 ion-icon{
@@ -52,15 +55,16 @@ ion-icon{
     color: black;
     font-size: 30px;
     font-family: Georgia;
-    margin-left: 585px;
+    text-align: center;
 }
 
 .aboutme p{
     color: grey;
     font-family: Georgia;
     font-size: 25px;
-    margin-left: 250px;
-    margin-right: 250px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .projects{
@@ -72,13 +76,15 @@ ion-icon{
     color: black;
     font-size: 30px;
     font-family: Georgia;
-    margin-left: 315px;
+    text-align: center;
 
 }
 
 .project_img{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 img{
